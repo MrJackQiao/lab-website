@@ -1,11 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
-function Publcations() {
+function Publication() {
   return (
-    <div>
-      <h1>people</h1>
-    </div>
+    <Container>
+      <div>Publication</div>
+    </Container>
   );
 }
 
-export default Publcations;
+export default Publication;

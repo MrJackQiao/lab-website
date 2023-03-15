@@ -1,23 +1,23 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Home from "./components/home";
+import Header from "./components/nav";
+import People from "./components/people";
+import Publication from "./components/publications";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Jack was here.</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/people" element={<People />} />
+        <Route path="/publication" element={<Publication />} />
+      </Routes>
+    </Router>
   );
 }
 

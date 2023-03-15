@@ -1,10 +1,11 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 function People() {
   return (
-    <div>
-      <h1>people</h1>
-    </div>
+    <Container>
+      <div>People</div>
+    </Container>
   );
 }
 
