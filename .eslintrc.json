@@ -38,7 +38,8 @@
             {
                 "nestedBinaryExpressions": false,
                 "returnAssign": false,
-                "enforceForArrowConditionals": false
+                "enforceForArrowConditionals": false,
+                "ignoreJSX": "multi-line"
             }
         ],
         "brace-style": ["error", "1tbs"],
