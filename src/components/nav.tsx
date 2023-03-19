@@ -1,26 +1,30 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import "../App.css";
 
 export default function Header() {
   return (
-    <Container>
+    <Container fluid>
       <Navbar bg="light" expand="lg">
-        <Container>
-          <Navbar.Brand as={Link} to="/">
-            X Lab
+        <Container fluid>
+          <Navbar.Brand as={NavLink} to="/">
+            X-Lab
           </Navbar.Brand>
-          <Nav className="justify-content-end" variant="pills">
-            <Nav.Link as={Link} to="/">
+          <Nav className="justify-content-end" variant="pills" id="navbar">
+            <Nav.Link as={NavLink} to="/">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/people">
+            <Nav.Link as={NavLink} to="/people">
               People
             </Nav.Link>
-            <Nav.Link as={Link} to="/publication">
+            <Nav.Link as={NavLink} to="/publication">
               Publications
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/openings">
+              Openings
             </Nav.Link>
           </Nav>
         </Container>

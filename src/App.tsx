@@ -5,8 +5,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./components/home";
 import Header from "./components/nav";
-import People from "./components/people";
+import PeopleList from "./components/people";
 import Publication from "./components/publications";
+import Openings from "./components/openings";
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/people" element={<People />} />
+        <Route path="/people" element={<PeopleList />} />
         <Route path="/publication" element={<Publication />} />
+        <Route path="/openings" element={<Openings />} />
       </Routes>
     </Router>
   );
