@@ -6,4 +6,5 @@ export interface People {
   googleScholarPage: string;
   shortBio: string;
   personalWeb: string;
+  githubLink: string;
 }
