@@ -4,27 +4,31 @@
         "role": "professor",
         "googleScholarPage": "",
         "shortBio": "",
-        "personalWeb": ""
+        "personalWeb": "",
+        "githubLink": ""
     },
     {
         "name": "Chu Qiao",
         "role": "phd",
         "googleScholarPage": "",
         "shortBio": "",
-        "personalWeb": ""
+        "personalWeb": "",
+        "githubLink": ""
     },
     {
         "name": "Xiaofan Li",
         "role": "phd",
         "googleScholarPage": "",
         "shortBio": "",
-        "personalWeb": ""
+        "personalWeb": "",
+        "githubLink": ""
     },
     {
-        "name": "Xiaofan Li",
+        "name": "D",
         "role": "phd",
         "googleScholarPage": "",
         "shortBio": "",
-        "personalWeb": ""
+        "personalWeb": "",
+        "githubLink": ""
     }
 ]

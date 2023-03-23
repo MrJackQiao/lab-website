@@ -1,0 +1,23 @@
+[
+    {
+        "title": "A",
+        "conference": "conference A",
+        "pdfLink": "https://a.com",
+        "slidesLink": "slides A",
+        "talkLink": "talk A"
+    },
+    {
+        "title": "B",
+        "conference": "conference A",
+        "pdfLink": "",
+        "talkLink": "",
+        "slidesLink": ""
+    },
+    {
+        "title": "C",
+        "conference": "conference B",
+        "pdfLink": "",
+        "talkLink": "",
+        "slidesLink": ""
+    }
+]
