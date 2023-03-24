@@ -14,7 +14,7 @@ export default function Header() {
             X-Lab
           </Navbar.Brand>
           <Nav className="justify-content-end" variant="pills" id="navbar">
-            <Nav.Link as={NavLink} to="/x-lab">
+            <Nav.Link as={NavLink} to="/x-lab/">
               Home
             </Nav.Link>
             <Nav.Link as={NavLink} to="/x-lab/people">

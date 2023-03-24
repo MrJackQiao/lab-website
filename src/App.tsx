@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/x-lab" element={<Home />} />
+        <Route path="/x-lab/" element={<Home />} />
         <Route path="/x-lab/people" element={<PeopleList />} />
         <Route path="/x-lab/publication" element={<PublicationList />} />
         <Route path="/x-lab/openings" element={<Openings />} />
