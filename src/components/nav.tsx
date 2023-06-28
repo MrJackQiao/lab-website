@@ -10,11 +10,11 @@ export default function Header() {
     <Container fluid>
       <Navbar bg="light" expand="lg">
         <Container fluid>
-          <Navbar.Brand as={NavLink} to="/">
+          <Navbar.Brand as={NavLink} to="/x-lab/home">
             X-Lab
           </Navbar.Brand>
           <Nav className="justify-content-end" variant="pills" id="navbar">
-            <Nav.Link as={NavLink} to="/x-lab/">
+            <Nav.Link as={NavLink} to="/x-lab/home">
               Home
             </Nav.Link>
             <Nav.Link as={NavLink} to="/x-lab/people">

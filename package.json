@@ -1,6 +1,6 @@
 {
     "name": "lab-website",
-    "homepage": "/x-lab/",
+    "homepage": "/x-lab/home",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
