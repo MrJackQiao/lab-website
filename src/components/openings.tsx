@@ -7,7 +7,7 @@ export default function Openings(): JSX.Element {
       <Row>
         <Col sm></Col>
         <Col sm>
-          <div>Openings</div>
+          <div>Openings info</div>
         </Col>
         <Col sm></Col>
       </Row>
