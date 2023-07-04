@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./components/home";
 import Header from "./components/nav";
@@ -12,7 +12,7 @@ import Openings from "./components/openings";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Header />
       <Routes>
         <Route path="/x-lab/home" element={<Home />} />
@@ -20,7 +20,7 @@ function App() {
         <Route path="/x-lab/publication" element={<PublicationList />} />
         <Route path="/x-lab/openings" element={<Openings />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
