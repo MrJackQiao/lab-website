@@ -1,6 +1,6 @@
 {
   "name": "lab-website",
-  "homepage": "https://mrjackqiao.github.io/lab-website-test/x-lab/home",
+  "homepage": "https://mrjackqiao.github.io/lab-website-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
