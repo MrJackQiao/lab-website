@@ -30,7 +30,9 @@ jobs:
       #     npm ci
       #     npm run build --if-present
       - name: build
-        run: npm run predeploy
+        run: |
+          npm install
+          npm run predeploy
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
