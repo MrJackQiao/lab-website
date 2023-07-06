@@ -10,6 +10,7 @@ export default function Home(): JSX.Element {
         <Col sm></Col>
         <Col sm>
           <div>This is the home page of X-Lab at University of Delaware</div>
+          <div>Welcome to out page</div>
         </Col>
         <Col sm></Col>
       </Row>
